@@ -1,6 +1,6 @@
 {
     "name": "danspam/DoctrineMongoDB",
-    "description": "Provider for Docrtine MongoDb Abstraction Layer",
+    "description": "Silex Provider for Doctrine MongoDb Abstraction Layer",
     "authors": [
         {
             "name": "Daniel Sargeant",
