@@ -17,7 +17,7 @@ class MongoExtension implements ServiceProviderInterface {
 			$configuration = $app['mongodb.configuration'];
 			$eventManager = $app['mongodb.event_manager'];
 			$server = $app['mongodb.server'];
-			$options = $app['mongodb.options'],
+			$options = $app['mongodb.options'];
 			return new Connection($server, $options, $configuration, $eventManager);
 		});
 
